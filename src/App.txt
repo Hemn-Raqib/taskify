@@ -1,0 +1,56 @@
+import React from 'react';
+import './App.css';
+
+// let name: string = "Hemn";
+// let age: number = 22;
+
+// let printName: (name: string) => number;
+// let printName: (name: string) => void;
+// let printName: (name: string) => never;
+// let personName: unknown;
+
+// 1
+// interface Person {
+//   name: string;
+//   age?: number;
+// }
+
+// interface Man extends Person {
+//   position: string
+// }
+
+
+// 2
+// interface Person {
+//   name: string;
+//   age?: number;
+// }
+
+// type X = Person & {
+//   a: string;
+//   b: number;
+// }
+
+// 3
+// type X =  {
+//   a: string;
+//   b: number;
+// }
+
+// interface Person extends X {
+//   name: string;
+//   age?: number;
+// }
+
+
+
+
+function App() {
+  return (
+    <div className="App">
+      Hello World!
+    </div>
+  );
+}
+
+export default App;
